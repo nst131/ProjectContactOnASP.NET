@@ -1,0 +1,14 @@
+﻿.line {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 16% 16% 16% 16% 16% 20%;
+    grid-template-rows: auto;
+    justify-items: center;
+    align-items: center;
+    align-content: flex-start;
+    justify-content: stretch;
+}
+
+.title {
+    background-color: darkgray;
+}

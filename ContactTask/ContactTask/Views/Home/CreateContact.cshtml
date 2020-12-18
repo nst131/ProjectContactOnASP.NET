@@ -1,0 +1,68 @@
+﻿@using ContactTask.ViewModels
+@using ContactTaskDomain.Entities
+@model CreateContactViewModel
+
+<div class="container row">
+    <h2 class="col-11 justify-content-center pl-5">Create Contact</h2>
+    <a href="#" class="close col-1 justify-content-end pl-3">X</a>
+</div>
+
+<form action="/Home/CreateContact" class="formWithValidation" method="post">
+    <div class="container m-0">
+        <div class="row">
+            <label class="col-4" for="Name">Name</label>
+            <div class="col-7 row">
+                <input class="col-6 field" type="text" name="Name" placeholder="Name" value=@Model.Name />
+                <div class="col-6 failing"></div>
+            </div>
+        </div>
+    </div>
+    <div class="container m-0">
+        <div class="row">
+            <label class="col-4" for="MobilePhone">MobilePhone</label>
+            <div class="col-7 row">
+                <input class="col-6 field phone" type="text" name="MobilePhone" placeholder="XX1234567"
+                       value=@Model.MobilePhone />
+                <div class="failing col-6"></div>
+            </div>
+        </div>
+    </div>
+    <div class="container m-0">
+        <div class="row">
+            <label class="col-4" for="Dear">Dear</label>
+            <div class="col-7 row">
+                <select class="col-6" name="Dear">
+                    <option selected value=@TypeDear.Dear>Dear</option>
+                    <option value=@TypeDear.Sweet>Sweet</option>
+                </select>
+                <div class="failing col-6"></div>
+            </div>
+        </div>
+    </div>
+    <div class="container m-0">
+        <div class="row">
+            <label class="col-4" for="JobTitle">JobTitle</label>
+            <div class="col-7 row">
+                <input class="col-6 field" type="text" name="JobTitle" placeholder="Work" value=@Model.JobTitle />
+                <div class="failing col-6"></div>
+            </div>
+        </div>
+    </div>
+    <div class="container m-0">
+        <div class="row">
+            <label class="col-4" for="BirthDate">BirthDate</label>
+            <div class="col-7 row">
+                <input class="field col-6 age" type="date" name="BirthDate" value=@Model.BirthDate />
+                <div class="failing col-6"></div>
+            </div>
+        </div>
+    </div>
+    <div class="container m-0">
+        <div class="row">
+            <div class="col-11 d-flex justify-content-end p-0 mt-5">
+                <input class="btn btn-primary validateBtn" style="width: 100px" type="submit" id="Sub" name="Sub"
+                       value="Save" />
+            </div>
+        </div>
+    </div>
+</form>

@@ -1,0 +1,13 @@
+﻿.error {
+    color: red;
+}
+
+input::placeholder {
+    transition: 0.5s;
+    color: silver;
+}
+
+input:focus::placeholder {
+    font-size: 10px;
+    transform: translateY(-8px);
+}

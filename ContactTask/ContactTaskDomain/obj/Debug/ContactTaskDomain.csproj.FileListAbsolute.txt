@@ -1,0 +1,13 @@
+D:\Программирование\Задачи\TaskOnASP.NET\ContactTask\ContactTaskDomain\bin\Debug\ContactTaskDomain.dll.config
+D:\Программирование\Задачи\TaskOnASP.NET\ContactTask\ContactTaskDomain\bin\Debug\ContactTaskDomain.dll
+D:\Программирование\Задачи\TaskOnASP.NET\ContactTask\ContactTaskDomain\bin\Debug\ContactTaskDomain.pdb
+D:\Программирование\Задачи\TaskOnASP.NET\ContactTask\ContactTaskDomain\bin\Debug\EntityFramework.dll
+D:\Программирование\Задачи\TaskOnASP.NET\ContactTask\ContactTaskDomain\bin\Debug\EntityFramework.SqlServer.dll
+D:\Программирование\Задачи\TaskOnASP.NET\ContactTask\ContactTaskDomain\bin\Debug\EntityFramework.xml
+D:\Программирование\Задачи\TaskOnASP.NET\ContactTask\ContactTaskDomain\bin\Debug\EntityFramework.SqlServer.xml
+D:\Программирование\Задачи\TaskOnASP.NET\ContactTask\ContactTaskDomain\obj\Debug\ContactTaskDomain.csproj.CoreCompileInputs.cache
+D:\Программирование\Задачи\TaskOnASP.NET\ContactTask\ContactTaskDomain\obj\Debug\ContactTaskDomain.csproj.CopyComplete
+D:\Программирование\Задачи\TaskOnASP.NET\ContactTask\ContactTaskDomain\obj\Debug\ContactTaskDomain.dll
+D:\Программирование\Задачи\TaskOnASP.NET\ContactTask\ContactTaskDomain\obj\Debug\ContactTaskDomain.pdb
+D:\Программирование\Задачи\TaskOnASP.NET\ContactTask\ContactTaskDomain\bin\Debug\Newtonsoft.Json.dll
+D:\Программирование\Задачи\TaskOnASP.NET\ContactTask\ContactTaskDomain\bin\Debug\Newtonsoft.Json.xml

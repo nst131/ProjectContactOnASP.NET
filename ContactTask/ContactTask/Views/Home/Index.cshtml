@@ -1,0 +1,33 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div id="view">
+    <button class="m-2 btn btn-primary create">Create Contact</button>
+
+    <div class="d-flex flex-row">
+        <h1>
+            Contacts
+        </h1>
+        <div class="spinner ml-3 mt-2">
+            <div class="spinner-border text-success" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+    </div>
+
+    <div id="wrapper"></div>
+</div>
+
+<div id="Menu">
+    <div id="okno">
+    </div>
+</div>
+
+<script src="~/Scripts/WriteTableScript.js"></script>
+<script src="~/Scripts/CloseMenu.js"></script>
+<script src="~/Scripts/AjaxPartialAction.js"></script>
+<script src="~/Scripts/ValidationForm.js"></script>
+<link href="~/Content/GridTable.css" rel="stylesheet" />
+<link href="~/Content/PopUpWindow.css" rel="stylesheet" />
+<link href="~/Content/FormStyle.css" rel="stylesheet" />
